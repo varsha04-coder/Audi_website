@@ -1,0 +1,215 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header Section */
+.header-section {
+    color: white;
+    text-align: center;
+    height: 250px;
+    background-image: linear-gradient(black,#647c64);
+    line-height: 1.5;
+}
+
+.header-section h1 {
+    font-size: 48px;
+}
+
+.header-section p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Car Overview Section */
+.car-overview {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-image:linear-gradient(black,#647c64);
+}
+
+.car-overview .car-image img {
+    width: 100%;
+}
+
+.car-description {
+    padding: 20px;
+}
+
+.car-description h2 {
+    font-size: 24px;
+    color: #007acc;
+}
+
+.car-description p{
+    color: #eee;
+    line-height: 1.5;
+}
+
+/* How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 50px;
+    background-image:linear-gradient(#647c64,black);
+}
+
+.how-it-works h2,p{
+    color: white;
+    line-height: 1.5;
+}
+
+.how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.how-it-works .step {
+    width: 30%;
+}
+
+.how-it-works .step img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+/* specific car */
+.specific-services {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    background-image:linear-gradient(black,#647c64);
+}
+
+.service {
+    color: white;
+    padding: 100px;
+    border-radius: 8px;
+    width: 55%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.air-filter {
+    background-image: url('air.png');
+}
+
+.battery-water {
+    background-image: url('battery.png');
+}
+
+.service h4 {
+    font-size:40px;
+    color:white;
+}
+
+.service p {
+    font-size:25px;
+    color: yellow;
+}
+
+/* car servicing */
+
+.car-servicing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-image:linear-gradient(#647c64,black);
+    height: 500px;
+}
+
+.car-servicing img {
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Maximum width for larger screens */
+    /* border-radius: 10px; */
+}
+
+.car-servicing .content {
+    width: 50%; /* Take the remaining space */
+}
+
+.car-servicing h3 {
+    font-size: 35px;
+    color: #eee;
+    margin-bottom: 10px;
+}
+
+.car-servicing p {
+    color: #eee;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.car-servicing .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+/* Service Options Section */
+.service-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-image:linear-gradient(#647c64,black);
+}
+
+.option {
+    width: 30%;
+    text-align: center;
+}
+
+.option img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-options h3{
+    color: #eee;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.service-options ul li{
+    list-style: none;
+    color: #eee;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* ending */
+
+.car-descript p{
+    font-size: 50px;
+    color: #eee;
+
+}
+
+/* Footer */
+.footer {
+    background: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
